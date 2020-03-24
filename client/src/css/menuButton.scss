@@ -1,0 +1,31 @@
+a{color:#585858;}
+.menu-btn{
+    position:absolute;
+    left:0;
+    top:0;
+    width:auto;
+    height:60px;
+    display:none;
+    justify-content:center;
+    align-items:center;
+
+    button{
+        
+        i{
+            color:white;
+            font-size:30px;
+        }
+    }
+}
+
+@media (min-width:501px) and (max-width:1000px){
+    .menu-btn{
+        display:flex;
+    }
+}
+
+@media all and (max-width:500px){
+    .menu-btn{
+        display:flex;
+    }
+}

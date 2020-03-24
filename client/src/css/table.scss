@@ -1,0 +1,22 @@
+table {
+    width:90%;
+    border-top: 1px solid #444444;
+    border-collapse: collapse;
+    table-layout:fixed;
+
+    thead{
+        background:#81BEF7;
+    }
+
+    th, td {
+        border-bottom: 1px solid #444444;
+        padding:30px 10px;
+        text-align:center;
+        text-overflow:ellipsis; overflow:hidden;white-space:nowrap
+    }
+}
+
+.btn-wrap{
+    margin:50px;
+}
+ 

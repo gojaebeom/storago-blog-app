@@ -1,0 +1,103 @@
+form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    margin:40px;
+
+    .formName{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:100%;
+        margin-top:5px;
+        margin-bottom:10px;
+        font-size:20px;
+    }
+
+    .img-wrap{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:500px;
+
+        img{
+            width:50%;
+            border-radius:3px;
+        }
+    }
+
+    select{
+        width:300px;
+        height:30px;
+        border:1px solid gray;
+        border-radius:3px;
+        background:white;
+        margin-top:5px;
+        margin-bottom:10px;
+    }
+
+    input{
+        width:500px;
+        height:40px;
+        border:1px solid gray;
+        border-radius:3px;
+        background:white;
+        margin-top:5px;
+        margin-bottom:10px;
+        padding-left:10px;
+    }
+
+    textarea{
+        width:500px;
+        border:1px solid gray;
+        border-radius:3px;
+        background:white;
+        margin-top:5px;
+        margin-bottom:10px;
+    }
+
+    .button-wrap{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:100%;
+        margin-top:10px;
+    }
+
+    .log-state{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:100%;
+        margin:5px 0px;
+        color:red;
+    }
+}
+
+@media (min-width:501px) and (max-width:1000px){
+    .navigation{
+        justify-content:center;
+        .menus{
+            display:none;
+        }
+        .login-menus{
+            display:none;
+        }
+        
+    }
+}
+
+@media all and (max-width:500px){
+    form{
+        input{
+            width:300px;
+        }
+        textarea{
+            width:300px;
+        }
+        select{
+            width:200px;
+        }
+    }
+}
